@@ -1,0 +1,72 @@
+
+.top-navbar {
+  background-color: #2c1c53;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links .nav-link {
+  color: white !important;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.phone-icon {
+  color: white;
+}
+
+.phone-text {
+  color: white;
+  font-weight: 500;
+}
+
+.book-btn {
+  background-color: #f13c83;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+
+
+
+
+
+.bottom-menu {
+  background-color: #ffffff;
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.submenu-center-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.submenu .nav-link,
+.submenu .dropdown-toggle {
+  color: #2c1c53 !important;
+  font-weight: 500;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.submenu .nav-link:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 991px) {
+  .submenu .nav-link,
+  .submenu .dropdown-toggle {
+    margin-right: 12px;
+  }
+}

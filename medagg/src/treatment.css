@@ -1,0 +1,118 @@
+.treatment-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #351c75;
+  margin-bottom: 8px;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #666;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+.circle-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1.5px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.circle-btn.highlight {
+  background: #f13c83;
+  color: #fff;
+  border: none;
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+
+
+.treatment-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.treatment-header {
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  padding: 0 px;
+}
+
+.treatment-header h2 {
+  font-size: 36px;
+  color: #2e1b4f;
+  font-weight: bold;
+}
+
+.treatment-header .highlight {
+  color: #f13c83;
+}
+
+.treatment-header p {
+  font-size: 18px;
+  color: #777;
+  margin: 10px 0 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+
+.cta {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.cta.pink {
+  background-color: #f13c83;
+  color: white;
+}
+
+.cta.dark {
+  background-color: #2e1b4f;
+  color: white;
+}

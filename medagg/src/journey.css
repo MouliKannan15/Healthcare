@@ -1,0 +1,47 @@
+.journey-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.treatment-header {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.treatment-header h2 {
+  font-size: 36px;
+  color: #2e1b4f;
+  font-weight: bold;
+}
+
+.treatment-header .highlight {
+  color: #f13c83;
+}
+
+.treatment-header p {
+  font-size: 18px;
+  color: #777;
+  margin: 10px 0 30px;
+}
+
+.journey-image-wrapper {
+  text-align: center;
+}
+
+.journey-image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .treatment-header h2 {
+    font-size: 28px;
+  }
+
+  .treatment-header p {
+    font-size: 16px;
+  }
+}
